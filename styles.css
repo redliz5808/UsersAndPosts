@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(41,53,101);
+  color: white;
+}
+
+header {
+  background-color: white;
+  color: rgb(41,53,101);
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, .description {
+  margin-left: 20px;
+}
+
+.description {
+  padding-bottom: 10px;
+}
+
+#users {
+  margin: 20px 0px 0px 20px;
+  cursor: pointer;
+}
+
+.posts {
+  box-shadow: 0px 0px 2px #ccc;
+  width: 70vw;
+  margin: 15px 0px 15px 40px;
+}
+
+.title, .body {
+  padding: 5px;
+}
+
+.body {
+  font-weight: normal;
+}
